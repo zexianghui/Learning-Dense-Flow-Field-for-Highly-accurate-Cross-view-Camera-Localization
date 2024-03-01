@@ -58,6 +58,7 @@ For instructions on how to obtain the dataset, please visit https://github.com/t
 
 ### Codes
 1. Training:
+
 python BEV_KITTI_train.py
 
 python BEV_Ford_train.py --train_log_start 0 --train_log_end 1 
@@ -72,6 +73,7 @@ python BEV_oxford_train.py
 
 
 2. Evaluation:
+
 python BEV_KITTI_test.py
 
 python BEV_Ford_test.py -- test_log_ind 0
@@ -84,4 +86,12 @@ python BEV_VIGOR_test.py --area same --rotation_range 180
 
 python BEV_oxford_test.py 
 
+### Files to be downloaded
+1. Some files from the Oxford dataset
 
+Some files from the Oxford dataset can be downloaded here and then placed in the dataLoader directory.
+https://drive.google.com/drive/folders/1B4RAqGwECydLgj4eeAVtnOxx8ob6sNBn?usp=drive_link
+
+2. Model files
+
+https://drive.google.com/drive/folders/1sqIATdj5U-v21DyW31hTUpX4el76LTeF?usp=drive_link
